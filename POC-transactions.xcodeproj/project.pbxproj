@@ -13,6 +13,10 @@
 		191D28C62828100F001E9D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191D28C42828100F001E9D31 /* Main.storyboard */; };
 		191D28C828281011001E9D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191D28C728281011001E9D31 /* Assets.xcassets */; };
 		191D28CB28281011001E9D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191D28C928281011001E9D31 /* LaunchScreen.storyboard */; };
+		191D28D42828148D001E9D31 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28D32828148C001E9D31 /* MainViewModel.swift */; };
+		191D28D728281507001E9D31 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28D628281507001E9D31 /* Product.swift */; };
+		191D28DA2828184E001E9D31 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28D92828184E001E9D31 /* ProductService.swift */; };
+		191D28DC28281C8F001E9D31 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28DB28281C8F001E9D31 /* Rate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		191D28C728281011001E9D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		191D28CA28281011001E9D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191D28CC28281011001E9D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		191D28D32828148C001E9D31 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		191D28D628281507001E9D31 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		191D28D92828184E001E9D31 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		191D28DB28281C8F001E9D31 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		191D28BD2828100F001E9D31 /* POC-transactions */ = {
 			isa = PBXGroup;
 			children = (
+				191D28D82828174A001E9D31 /* dataSource */,
+				191D28D5282814FA001E9D31 /* models */,
+				191D28D228281474001E9D31 /* viewModels */,
 				191D28BE2828100F001E9D31 /* AppDelegate.swift */,
 				191D28C02828100F001E9D31 /* SceneDelegate.swift */,
 				191D28C22828100F001E9D31 /* ViewController.swift */,
@@ -65,6 +76,31 @@
 				191D28CC28281011001E9D31 /* Info.plist */,
 			);
 			path = "POC-transactions";
+			sourceTree = "<group>";
+		};
+		191D28D228281474001E9D31 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				191D28D32828148C001E9D31 /* MainViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		191D28D5282814FA001E9D31 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				191D28D628281507001E9D31 /* Product.swift */,
+				191D28DB28281C8F001E9D31 /* Rate.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		191D28D82828174A001E9D31 /* dataSource */ = {
+			isa = PBXGroup;
+			children = (
+				191D28D92828184E001E9D31 /* ProductService.swift */,
+			);
+			path = dataSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +176,11 @@
 			files = (
 				191D28C32828100F001E9D31 /* ViewController.swift in Sources */,
 				191D28BF2828100F001E9D31 /* AppDelegate.swift in Sources */,
+				191D28D728281507001E9D31 /* Product.swift in Sources */,
 				191D28C12828100F001E9D31 /* SceneDelegate.swift in Sources */,
+				191D28DC28281C8F001E9D31 /* Rate.swift in Sources */,
+				191D28D42828148D001E9D31 /* MainViewModel.swift in Sources */,
+				191D28DA2828184E001E9D31 /* ProductService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
