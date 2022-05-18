@@ -64,12 +64,12 @@
 		191D28BD2828100F001E9D31 /* POC-transactions */ = {
 			isa = PBXGroup;
 			children = (
+				1958DE5528344F0C00920A2A /* ViewsControllers */,
 				191D28D82828174A001E9D31 /* dataSource */,
 				191D28D5282814FA001E9D31 /* models */,
 				191D28D228281474001E9D31 /* viewModels */,
 				191D28BE2828100F001E9D31 /* AppDelegate.swift */,
 				191D28C02828100F001E9D31 /* SceneDelegate.swift */,
-				191D28C22828100F001E9D31 /* ViewController.swift */,
 				191D28C42828100F001E9D31 /* Main.storyboard */,
 				191D28C728281011001E9D31 /* Assets.xcassets */,
 				191D28C928281011001E9D31 /* LaunchScreen.storyboard */,
@@ -101,6 +101,14 @@
 				191D28D92828184E001E9D31 /* ProductService.swift */,
 			);
 			path = dataSource;
+			sourceTree = "<group>";
+		};
+		1958DE5528344F0C00920A2A /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				191D28C22828100F001E9D31 /* ViewController.swift */,
+			);
+			path = ViewsControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

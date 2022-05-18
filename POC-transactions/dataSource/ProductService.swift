@@ -9,14 +9,16 @@ import Foundation
 
 protocol ProductsService {
     func getProducts(success: @escaping ([Product]) -> Void, err: @escaping () -> Void)
+    func getExchangeRates(success: @escaping ([Rate]) -> Void, err: @escaping () -> Void)
 }
 
 class ProductRemoteService: ProductsService {
     
-    let url = URL(string: "http://quiet-stone-2094.herokuapp.com/transactions.json")
+    
     
     func getProducts(success: @escaping ([Product]) -> Void, err: @escaping () -> Void) {
-        guard let url = url else { return }
+        let transactionsUrl = URL(string: "http://quiet-stone-2094.herokuapp.com/transactions.json")
+        guard let url = transactionsUrl else { return }
         
         let request = URLRequest(url: url)
         
@@ -32,7 +34,8 @@ class ProductRemoteService: ProductsService {
     }
     
     func getExchangeRates(success: @escaping ([Rate]) -> Void, err: @escaping () -> Void) {
-        guard let url = url else { return }
+        let ratesUrl = URL(string: "http://quiet-stone-2094.herokuapp.com/rates.json")
+        guard let url = ratesUrl else { return }
         
         let request = URLRequest(url: url)
         

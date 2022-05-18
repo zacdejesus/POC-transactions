@@ -16,27 +16,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntJ-oa-V9P">
-                                <rect key="frame" x="0.0" y="832" width="414" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntJ-oa-V9P">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Oh9-Ya-kQY"/>
+                                    <constraint firstAttribute="height" constant="60" id="Oh9-Ya-kQY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="7YC-0k-PYv">
-                                <rect key="frame" x="0.0" y="174" width="414" height="658"/>
+                                <rect key="frame" x="0.0" y="289" width="414" height="513"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kjT-V8-3za">
-                                <rect key="frame" x="0.0" y="74" width="414" height="100"/>
+                                <rect key="frame" x="0.0" y="89" width="414" height="170"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="aZO-is-Oea"/>
+                                    <constraint firstAttribute="height" constant="170" id="aZO-is-Oea"/>
                                 </constraints>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transactions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxx-ta-trr">
+                                <rect key="frame" x="0.0" y="259" width="414" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aEH-Iw-a5G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please choose a product" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nds-if-Tfe">
-                                <rect key="frame" x="0.0" y="44" width="414" height="30"/>
+                                <rect key="frame" x="0.0" y="59" width="414" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="nu3-Vh-unI"/>
                                 </constraints>
@@ -49,18 +58,21 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nds-if-Tfe" secondAttribute="trailing" id="0D7-ly-aIZ"/>
+                            <constraint firstItem="Nxx-ta-trr" firstAttribute="top" secondItem="kjT-V8-3za" secondAttribute="bottom" id="0xz-CO-ADb"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ntJ-oa-V9P" secondAttribute="trailing" id="2aQ-I4-nyX"/>
                             <constraint firstAttribute="trailing" secondItem="kjT-V8-3za" secondAttribute="trailing" id="9R4-7V-AgY"/>
                             <constraint firstItem="kjT-V8-3za" firstAttribute="top" secondItem="nds-if-Tfe" secondAttribute="bottom" id="As9-Eb-l0c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Nxx-ta-trr" secondAttribute="trailing" id="CQT-oh-xy9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7YC-0k-PYv" secondAttribute="trailing" id="KZj-VC-iVW"/>
-                            <constraint firstItem="nds-if-Tfe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="L0b-dV-jhd"/>
+                            <constraint firstItem="nds-if-Tfe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="L0b-dV-jhd"/>
                             <constraint firstItem="ntJ-oa-V9P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LLV-DC-aPU"/>
-                            <constraint firstItem="7YC-0k-PYv" firstAttribute="top" secondItem="kjT-V8-3za" secondAttribute="bottom" id="QO0-dn-Vh9"/>
                             <constraint firstItem="7YC-0k-PYv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="QuR-xH-gkb"/>
                             <constraint firstItem="nds-if-Tfe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R9r-x8-S7D"/>
+                            <constraint firstItem="Nxx-ta-trr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UEo-Sz-A4c"/>
                             <constraint firstItem="kjT-V8-3za" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="d1s-DG-cPt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ntJ-oa-V9P" secondAttribute="bottom" id="vmb-Yd-hur"/>
                             <constraint firstItem="ntJ-oa-V9P" firstAttribute="top" secondItem="7YC-0k-PYv" secondAttribute="bottom" id="w6J-uc-BGm"/>
+                            <constraint firstItem="7YC-0k-PYv" firstAttribute="top" secondItem="Nxx-ta-trr" secondAttribute="bottom" id="yw7-fU-71p"/>
                         </constraints>
                     </view>
                     <connections>

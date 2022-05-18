@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Product: Codable {
+struct Product: Codable, Hashable {
     var sku: String? = ""
     var amount: String? = ""
     var currency: String? = ""
