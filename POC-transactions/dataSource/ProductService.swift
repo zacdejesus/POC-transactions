@@ -14,8 +14,6 @@ protocol ProductsService {
 
 class ProductRemoteService: ProductsService {
     
-    
-    
     func getProducts(success: @escaping ([Product]) -> Void, err: @escaping () -> Void) {
         let transactionsUrl = URL(string: "http://quiet-stone-2094.herokuapp.com/transactions.json")
         guard let url = transactionsUrl else { return }
@@ -25,8 +23,8 @@ class ProductRemoteService: ProductsService {
         URLSession.shared.dataTask(with: request, completionHandler: { data, response, error in
             guard let data = data else { return }
             do {
-                let slpData2 = try JSONDecoder().decode([Product].self, from: data)
-                success(slpData2)
+                let dataP = try JSONDecoder().decode([Product].self, from: data)
+                success(dataP)
             } catch {
                 err()
             }
@@ -42,8 +40,8 @@ class ProductRemoteService: ProductsService {
         URLSession.shared.dataTask(with: request, completionHandler: { data, response, error in
             guard let data = data else { return }
             do {
-                let slpData2 = try JSONDecoder().decode([Rate].self, from: data)
-                success(slpData2)
+                let dataP = try JSONDecoder().decode([Rate].self, from: data)
+                success(dataP)
             } catch {
                 err()
             }

@@ -31,11 +31,14 @@ class ViewController: UIViewController {
     }
 
     private func setupPickerView() {
+        pickerView.accessibilityIdentifier = "pickerView"
         pickerView.delegate = self
         pickerView.dataSource = self
     }
 
     private func setupTableView() {
+        
+        tableView.accessibilityIdentifier = "tableView"
         tableView.delegate = self
         tableView.dataSource = self
     }

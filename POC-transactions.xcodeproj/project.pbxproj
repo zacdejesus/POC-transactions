@@ -17,7 +17,32 @@
 		191D28D728281507001E9D31 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28D628281507001E9D31 /* Product.swift */; };
 		191D28DA2828184E001E9D31 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28D92828184E001E9D31 /* ProductService.swift */; };
 		191D28DC28281C8F001E9D31 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191D28DB28281C8F001E9D31 /* Rate.swift */; };
+		193C7EC6283676E3007019ED /* POC_transactionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193C7EC5283676E3007019ED /* POC_transactionsUITests.swift */; };
+		193C7ECE28367A5B007019ED /* MockTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975CB7B2836654F00315582 /* MockTestService.swift */; };
+		1975CB7528365F8100315582 /* POC_transactionsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975CB7428365F8100315582 /* POC_transactionsViewModelTests.swift */; };
+		1975CB7D2836655000315582 /* MockTestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1975CB7B2836654F00315582 /* MockTestService.swift */; };
+		1975CB7F28366AD200315582 /* jsonMockRatesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1975CB7E28366AD200315582 /* jsonMockRatesData.json */; };
+		1975CB8028366AD200315582 /* jsonMockRatesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1975CB7E28366AD200315582 /* jsonMockRatesData.json */; };
+		1975CB8328366B4A00315582 /* jsonMockProductsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1975CB8228366B4A00315582 /* jsonMockProductsData.json */; };
+		1975CB8428366B4A00315582 /* jsonMockProductsData.json in Resources */ = {isa = PBXBuildFile; fileRef = 1975CB8228366B4A00315582 /* jsonMockProductsData.json */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		193C7EC9283676E3007019ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191D28B32828100F001E9D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191D28BA2828100F001E9D31;
+			remoteInfo = "POC-transactions";
+		};
+		1975CB7628365F8100315582 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 191D28B32828100F001E9D31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 191D28BA2828100F001E9D31;
+			remoteInfo = "POC-transactions";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		191D28BB2828100F001E9D31 /* POC-transactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "POC-transactions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,10 +57,32 @@
 		191D28D628281507001E9D31 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		191D28D92828184E001E9D31 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		191D28DB28281C8F001E9D31 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		193C7EC3283676E3007019ED /* POC-transactionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-transactionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		193C7EC5283676E3007019ED /* POC_transactionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_transactionsUITests.swift; sourceTree = "<group>"; };
+		1975CB7228365F8100315582 /* POC-transactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POC-transactionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1975CB7428365F8100315582 /* POC_transactionsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POC_transactionsViewModelTests.swift; sourceTree = "<group>"; };
+		1975CB7B2836654F00315582 /* MockTestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTestService.swift; sourceTree = "<group>"; };
+		1975CB7E28366AD200315582 /* jsonMockRatesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonMockRatesData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		1975CB8228366B4A00315582 /* jsonMockProductsData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonMockProductsData.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		19DDC6242836816200201168 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		191D28B82828100F001E9D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193C7EC0283676E3007019ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975CB6F28365F8100315582 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,7 +95,10 @@
 		191D28B22828100F001E9D31 = {
 			isa = PBXGroup;
 			children = (
+				19DDC6242836816200201168 /* readme.md */,
 				191D28BD2828100F001E9D31 /* POC-transactions */,
+				1975CB7328365F8100315582 /* POC-transactionsTests */,
+				193C7EC4283676E3007019ED /* POC-transactionsUITests */,
 				191D28BC2828100F001E9D31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				191D28BB2828100F001E9D31 /* POC-transactions.app */,
+				1975CB7228365F8100315582 /* POC-transactionsTests.xctest */,
+				193C7EC3283676E3007019ED /* POC-transactionsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,12 +155,47 @@
 			path = dataSource;
 			sourceTree = "<group>";
 		};
+		193C7EC4283676E3007019ED /* POC-transactionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				193C7EC5283676E3007019ED /* POC_transactionsUITests.swift */,
+			);
+			path = "POC-transactionsUITests";
+			sourceTree = "<group>";
+		};
 		1958DE5528344F0C00920A2A /* ViewsControllers */ = {
 			isa = PBXGroup;
 			children = (
 				191D28C22828100F001E9D31 /* ViewController.swift */,
 			);
 			path = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		1975CB7328365F8100315582 /* POC-transactionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1975CB852836760200315582 /* Mocks */,
+				1975CB8128366B0800315582 /* Json */,
+				1975CB7428365F8100315582 /* POC_transactionsViewModelTests.swift */,
+			);
+			path = "POC-transactionsTests";
+			sourceTree = "<group>";
+		};
+		1975CB8128366B0800315582 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				1975CB7E28366AD200315582 /* jsonMockRatesData.json */,
+				1975CB8228366B4A00315582 /* jsonMockProductsData.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		1975CB852836760200315582 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				1975CB7B2836654F00315582 /* MockTestService.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +218,42 @@
 			productReference = 191D28BB2828100F001E9D31 /* POC-transactions.app */;
 			productType = "com.apple.product-type.application";
 		};
+		193C7EC2283676E3007019ED /* POC-transactionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193C7ECD283676E3007019ED /* Build configuration list for PBXNativeTarget "POC-transactionsUITests" */;
+			buildPhases = (
+				193C7EBF283676E3007019ED /* Sources */,
+				193C7EC0283676E3007019ED /* Frameworks */,
+				193C7EC1283676E3007019ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				193C7ECA283676E3007019ED /* PBXTargetDependency */,
+			);
+			name = "POC-transactionsUITests";
+			productName = "POC-transactionsUITests";
+			productReference = 193C7EC3283676E3007019ED /* POC-transactionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1975CB7128365F8100315582 /* POC-transactionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1975CB7A28365F8100315582 /* Build configuration list for PBXNativeTarget "POC-transactionsTests" */;
+			buildPhases = (
+				1975CB6E28365F8100315582 /* Sources */,
+				1975CB6F28365F8100315582 /* Frameworks */,
+				1975CB7028365F8100315582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1975CB7728365F8100315582 /* PBXTargetDependency */,
+			);
+			name = "POC-transactionsTests";
+			productName = "POC-transactionsTests";
+			productReference = 1975CB7228365F8100315582 /* POC-transactionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,6 +266,14 @@
 				TargetAttributes = {
 					191D28BA2828100F001E9D31 = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					193C7EC2283676E3007019ED = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 191D28BA2828100F001E9D31;
+					};
+					1975CB7128365F8100315582 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 191D28BA2828100F001E9D31;
 					};
 				};
 			};
@@ -160,6 +291,8 @@
 			projectRoot = "";
 			targets = (
 				191D28BA2828100F001E9D31 /* POC-transactions */,
+				1975CB7128365F8100315582 /* POC-transactionsTests */,
+				193C7EC2283676E3007019ED /* POC-transactionsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -171,7 +304,25 @@
 			files = (
 				191D28CB28281011001E9D31 /* LaunchScreen.storyboard in Resources */,
 				191D28C828281011001E9D31 /* Assets.xcassets in Resources */,
+				1975CB7F28366AD200315582 /* jsonMockRatesData.json in Resources */,
 				191D28C62828100F001E9D31 /* Main.storyboard in Resources */,
+				1975CB8328366B4A00315582 /* jsonMockProductsData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		193C7EC1283676E3007019ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975CB7028365F8100315582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975CB8428366B4A00315582 /* jsonMockProductsData.json in Resources */,
+				1975CB8028366AD200315582 /* jsonMockRatesData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +343,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		193C7EBF283676E3007019ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193C7EC6283676E3007019ED /* POC_transactionsUITests.swift in Sources */,
+				193C7ECE28367A5B007019ED /* MockTestService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1975CB6E28365F8100315582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975CB7528365F8100315582 /* POC_transactionsViewModelTests.swift in Sources */,
+				1975CB7D2836655000315582 /* MockTestService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		193C7ECA283676E3007019ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191D28BA2828100F001E9D31 /* POC-transactions */;
+			targetProxy = 193C7EC9283676E3007019ED /* PBXContainerItemProxy */;
+		};
+		1975CB7728365F8100315582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 191D28BA2828100F001E9D31 /* POC-transactions */;
+			targetProxy = 1975CB7628365F8100315582 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		191D28C42828100F001E9D31 /* Main.storyboard */ = {
@@ -384,6 +566,84 @@
 			};
 			name = Release;
 		};
+		193C7ECB283676E3007019ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandroDeJesus.POC-transactionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-transactions";
+			};
+			name = Debug;
+		};
+		193C7ECC283676E3007019ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandroDeJesus.POC-transactionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "POC-transactions";
+			};
+			name = Release;
+		};
+		1975CB7828365F8100315582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandroDeJesus.POC-transactionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-transactions.app/POC-transactions";
+			};
+			name = Debug;
+		};
+		1975CB7928365F8100315582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DTJLZH295U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "alejandroDeJesus.POC-transactionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POC-transactions.app/POC-transactions";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -401,6 +661,24 @@
 			buildConfigurations = (
 				191D28D028281011001E9D31 /* Debug */,
 				191D28D128281011001E9D31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193C7ECD283676E3007019ED /* Build configuration list for PBXNativeTarget "POC-transactionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193C7ECB283676E3007019ED /* Debug */,
+				193C7ECC283676E3007019ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1975CB7A28365F8100315582 /* Build configuration list for PBXNativeTarget "POC-transactionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1975CB7828365F8100315582 /* Debug */,
+				1975CB7928365F8100315582 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
